@@ -1,0 +1,4 @@
+I"�<h1 id="abstract">Abstract</h1>
+
+<p>Depolarization is one of the most important sources of error in a quantum communication link that can be introduced by the quantum channel. Even though standard quantum process tomography can, in theory, be applied to characterize this effect, in most real-world implementations depolarization cannot be distinguished from time-varying unitary transformations, especially when the timescales are much shorter than the detectors response time. In this paper, we introduce a method for distinguishing true depolarization from fast polarization rotations by employing Hong–Ou–Mandel interference. It is shown that the results are independent of the timing resolutions of the photodetectors.</p>
+:ET

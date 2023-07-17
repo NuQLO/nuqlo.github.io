@@ -1,0 +1,14 @@
+---
+layout: member
+title: Guilherme Penello Temporão, PhD
+position: Professor
+handle: 
+twitter: 
+github: 
+scholar: zdhDPzEAAAAJ
+image: /images/team/guilherme-temporao.jpeg
+cv: 
+email: temporao@opto.cetuc.puc-rio.br
+---
+
+Guilherme P. Temporão was born in Rio de Janeiro, Brazil, in1980. He received the Ph.D. degree in electrical engineering from the Pontifical Catholic University, Rio de Janeiro (PUC-Rio), Brazil, in 2007. From 2004 to 2006, he worked on nonlinear optics and single-photon detectors with the Group of Applied Physics, University of Geneva, Switzerland. Since 2008, he has been an Assistant Professor at PUC-Rio and a Member of the Optoelectronics and Instrumentation Group. His current areas of interest include polarization-encoded quantum communication, optical fiber metrology, and reflectometry techniques.
