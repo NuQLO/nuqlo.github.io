@@ -2,36 +2,38 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8"/>
+	<meta charset="utf-8" />
 	<title>NuQLO</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- RSS feed -->
 	<link rel="alternate" type="application/rss+xml" title="NuQLO" href="https://nuqlo.github.io/feed.xml">
 
-  <!-- Customized Bootstrap + Font Awesome + Solarized -->
-  <link href="/css/style.css" rel="stylesheet" media="screen">
+	<!-- Customized Bootstrap + Font Awesome + Solarized -->
+	<link href="/css/style.css" rel="stylesheet" media="screen">
 
 	<!-- Favicon -->
-	<link rel="shortcut icon" href="/images/favicon.png"/>
+	<link rel="shortcut icon" href="/images/favicon.png" />
 
 	<!-- Typekit -->
 	<script>
-	  (function(d) {
-		var config = {
-		  kitId: 'xeu8jut',
-		  scriptTimeout: 3000
-		},
-		h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-	  })(document);
+		(function (d) {
+			var config = {
+				kitId: 'xeu8jut',
+				scriptTimeout: 3000
+			},
+				h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = '//use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+		})(document);
 	</script>
 
 	<!-- Google Analytics -->
 	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date(); a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
 		ga('create', 'UA-26244371-2', 'bedford.io');
 		ga('send', 'pageview');
@@ -51,33 +53,36 @@
 	<div id="header">
 		<nav class="navbar navbar-expand-md navbar-light bg-navbar">
 			<div class="container">
-				
+
 				<a class="navbar-brand" href="/">
 				</a>
-				
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav nav-pills ml-auto">
-						
+
 						<li class="nav-link">
-						
-						<a class="mx-1" href="/blog/">blog</a>
+
+							<a class="mx-1" href="/blog/">blog</a>
 						</li>
-						
+
 						<li class="nav-link">
-						
-						<a f class="mx-1" href="/papers/">papers</a>
+
+							<a f class="mx-1" href="/papers/">papers</a>
 						</li>
-						
+
 						<li class="nav-link">
-						
-						<a class="mx-1" href="/projects/">projects</a></li>
-						
+
+							<a class="mx-1" href="/projects/">projects</a>
+						</li>
+
 						<li class="nav-link">
-						
-						<a class="mx-1" href="/team/">team</a></li>
+
+							<a class="mx-1" href="/team/">team</a>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -86,45 +91,49 @@
 
 	<div class="container mt-4">
 
-	<div class="row">
-	<div class="col-lg-12">
-		<object width="50%" class="pull-left" data="/images/logo.svg" type="image/svg+xml"></object>
-		<!-- <div class="bigtitle logobox">
+		<div class="row">
+			<div class="col-lg-12">
+				<object width="50%" class="pull-left" data="/images/logo.svg" type="image/svg+xml"></object>
+				<!-- <div class="bigtitle logobox">
 			NuQLO
 		</div> -->
-	</div>
-</div>
-<div class="bigspacer"></div>
-<div class="bigspacer"></div>
-
-<div class="row">
-	<div class="col-lg-12">
-		<object width="100%" class="pull-center" data="/images/wallpaper.svg" type="image/svg+xml"></object>
-		<!-- <div class="bigtitle logobox">
-			NuQLO
-		</div> -->
-	</div>
-</div>
-
-<div class="bigspacer"></div>
-<div class="bigspacer"></div>
-
-<div class="row">
-	<div class="col-lg-12">
-		<div class="smallhead">
-      <p>
-        Welcome to NuQLO at PUC-Rio, a research group focused on quantum communication and computation. We are dedicated to advancing quantum technologies and exploring their practical applications. Our team of scientists and engineers conducts innovative research, collaborating with institutions to drive progress in the field. Through our work, we aim to shape the future of quantum technology and inspire the next generation of researchers and engineers.
-      </p>
-      <p>
-      </p>
+			</div>
 		</div>
-	</div>
-</div>
+		<div class="bigspacer"></div>
+		<div class="bigspacer"></div>
 
-<div class="bigspacer"></div>
-<div class="bigspacer"></div>
+		<div class="row">
+			<div class="col-lg-12">
+				<object width="100%" class="pull-center" data="/images/wallpaper.svg" type="image/svg+xml"></object>
+				<!-- <div class="bigtitle logobox">
+			NuQLO
+		</div> -->
+			</div>
+		</div>
 
-<!-- <div class="row">
+		<div class="bigspacer"></div>
+		<div class="bigspacer"></div>
+
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="smallhead">
+					<p>
+						Welcome to NuQLO at PUC-Rio, a research group focused on quantum communication and computation.
+						We are dedicated to advancing quantum technologies and exploring their practical applications.
+						Our team of scientists and engineers conducts innovative research, collaborating with
+						institutions to drive progress in the field. Through our work, we aim to shape the future of
+						quantum technology and inspire the next generation of researchers and engineers.
+					</p>
+					<p>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="bigspacer"></div>
+		<div class="bigspacer"></div>
+
+		<!-- <div class="row">
 	<div class="col-lg-12">
 		<div class="head">
 			<a class="off" href="/blog/">Recent posts</a>
@@ -132,63 +141,80 @@
 		<div class="spacer"></div>
 	</div>
 </div> -->
-<!-- 
+		<!-- 
 <div class="row">
 	
 </div> -->
 
-<div class="spacer"></div>
-
-<div class="row">
-	<div class="col-lg-12">
-		<div class="head">
-			<a class="off" href="/papers/">Recent papers</a>
-		</div>
 		<div class="spacer"></div>
-	</div>
-</div>
 
-<div class="row">
-	
-	<div class="col-lg-3 reduced-gutter">
-		<div class="pad-left">
-			<div class="note">
-				<i class="fa fa-file-text-o fa-fw"></i>
-				<a class="off" href="/papers/ripper-swap-test/">
-				Swap Test-based characterization of decoherence in universal quantum computers
-				</a>
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="head">
+					<a class="off" href="/papers/">Recent papers</a>
+				</div>
+				<div class="spacer"></div>
 			</div>
-			<div class="smallspacer"></div>
-			<div class="smallnote">
-				Posted
-				10 Jul 2023
-			</div>
-			<div class="bigspacer"></div>
 		</div>
-	</div>
-	
-	<div class="col-lg-3 reduced-gutter">
-		<div class="pad-left">
-			<div class="note">
-				<i class="fa fa-file-text-o fa-fw"></i>
-				<a class="off" href="/papers/amaral-hom/">
-				Characterization of depolarizing channels using two-photon interference
-				</a>
+
+		<div class="row">
+
+			<div class="col-lg-3 reduced-gutter">
+				<div class="pad-left">
+					<div class="note">
+						<i class="fa fa-file-text-o fa-fw"></i>
+						<a class="off" href="/papers/ripper-swap-test/">
+							Swap Test-based characterization of decoherence in universal quantum computers
+						</a>
+					</div>
+					<div class="smallspacer"></div>
+					<div class="smallnote">
+						Posted
+						10 Jul 2023
+					</div>
+					<div class="bigspacer"></div>
+				</div>
 			</div>
-			<div class="smallspacer"></div>
-			<div class="smallnote">
-				Posted
-				10 Jul 2023
+
+			<div class="col-lg-3 reduced-gutter">
+				<div class="pad-left">
+					<div class="note">
+						<i class="fa fa-file-text-o fa-fw"></i>
+						<a class="off" href="/papers/amaral-hom/">
+							Characterization of depolarizing channels using two-photon interference
+						</a>
+					</div>
+					<div class="smallspacer"></div>
+					<div class="smallnote">
+						Posted
+						10 Jul 2023
+					</div>
+					<div class="bigspacer"></div>
+				</div>
 			</div>
-			<div class="bigspacer"></div>
+
+			<div class="col-lg-3 reduced-gutter">
+				<div class="pad-left">
+					<div class="note">
+						<i class="fa fa-file-text-o fa-fw"></i>
+						<a class="off" href="/papers/temporao-dop/">
+							Two-photon quantum state tomography of photonic qubits
+						</a>
+					</div>
+					<div class="smallspacer"></div>
+					<div class="smallnote">
+						Posted
+						27 Oct 2023
+					</div>
+					<div class="bigspacer"></div>
+				</div>
+			</div>
+
 		</div>
-	</div>
-	
-</div>
 
-<div class="spacer"></div>
+		<div class="spacer"></div>
 
-<!-- <div class="row">
+		<!-- <div class="row">
 	<div class="col-lg-12">
 		<div class="head">
 			<a class="off" href="/projects/">Active projects</a>
@@ -197,62 +223,62 @@
 	</div>
 </div> -->
 
-<div class="row">
-	
-</div>
+		<div class="row">
 
-<div class="spacer"></div>
-
-<div class="row">
-	<div class="col-lg-12">
-		<div class="head">
-			Misc
 		</div>
-		<div class="spacer"></div>
-	</div>
-</div>
 
-<div class="row">
-	<div class="col-lg-12 reduced-gutter">
-		<div class="pad-left">
-			<ul class="list-inline">
-				
-				<li class="footernav list-inline-item">
-					<i class="fa fa-angle-right"></i> <a class="off" href="/misc/about/">About</a>
-				</li>
-				
-				<li class="footernav list-inline-item">
-					<i class="fa fa-angle-right"></i> <a class="off" href="/misc/join/">Join</a>
-				</li>
-				
-				<li class="footernav list-inline-item">
-					<i class="fa fa-angle-right"></i> <a class="off" href="/misc/contact/">Contact</a>
-				</li>
-				
-				<!-- <li class="footernav list-inline-item">
+		<div class="spacer"></div>
+
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="head">
+					Misc
+				</div>
+				<div class="spacer"></div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-12 reduced-gutter">
+				<div class="pad-left">
+					<ul class="list-inline">
+
+						<li class="footernav list-inline-item">
+							<i class="fa fa-angle-right"></i> <a class="off" href="/misc/about/">About</a>
+						</li>
+
+						<li class="footernav list-inline-item">
+							<i class="fa fa-angle-right"></i> <a class="off" href="/misc/join/">Join</a>
+						</li>
+
+						<li class="footernav list-inline-item">
+							<i class="fa fa-angle-right"></i> <a class="off" href="/misc/contact/">Contact</a>
+						</li>
+
+						<!-- <li class="footernav list-inline-item">
 					<i class="fa fa-angle-right"></i> <a class="off" href="/talks/">Talks</a>
 				</li> -->
-			</ul>
+					</ul>
+				</div>
+				<div class="spacer"></div>
+			</div>
 		</div>
-		<div class="spacer"></div>
-	</div>
-</div>
 
-<div class="row">
-  <div class="col-lg-12">
-    <div class="float-lg-right" style="vertical-align: bottom; display: table-cell;">
-      <a class="off" href="https://www.puc-rio.br/index.html">
-        <img width=70 src="/images/logos/puc_rio_logo.png">
-      </a>
-      <!-- &nbsp; &nbsp; &nbsp; &nbsp;
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="float-lg-right" style="vertical-align: bottom; display: table-cell;">
+					<a class="off" href="https://www.puc-rio.br/index.html">
+						<img width=70 src="/images/logos/puc_rio_logo.png">
+					</a>
+					<!-- &nbsp; &nbsp; &nbsp; &nbsp;
       <a class="off" href="https://www.hhmi.org/">
         <img width=68 src="/images/logos/logo_hhmi_grayscale.png">
       </a> -->
-    </div>
-  </div>
-</div>
+				</div>
+			</div>
+		</div>
 
-<a style="display:none;" rel="me" href="https://mstdn.science/@trvrb">Hidden Mastodon Link for Verification</a>
+		<a style="display:none;" rel="me" href="https://mstdn.science/@trvrb">Hidden Mastodon Link for Verification</a>
 
 
 	</div>
@@ -260,4 +286,5 @@
 	<div id="footer"><span style="display:none">foo</span></div>
 
 </body>
+
 </html>
